@@ -14,6 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		6413D1AE2C8977FD00137147 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413D1AD2C8977FD00137147 /* VideoPlayerView.swift */; };
 		6413D1B22C897A6300137147 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413D1B12C897A6300137147 /* VideoPlayer.m */; };
+		6413D1B42C89B92400137147 /* BackgroundLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413D1B32C89B92400137147 /* BackgroundLocation.swift */; };
+		6413D1B62C89B95E00137147 /* BackgroundLocationManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413D1B52C89B95E00137147 /* BackgroundLocationManagerBridge.m */; };
 		7699B88040F8A987B510C191 /* libPods-Videoplayer-VideoplayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Videoplayer-VideoplayerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A2EB52DAD11D33A03017873B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EFD82648F877D04C535F63BD /* PrivacyInfo.xcprivacy */; };
@@ -47,6 +49,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-Videoplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Videoplayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6413D1AD2C8977FD00137147 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		6413D1B12C897A6300137147 /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		6413D1B32C89B92400137147 /* BackgroundLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLocation.swift; sourceTree = "<group>"; };
+		6413D1B52C89B95E00137147 /* BackgroundLocationManagerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundLocationManagerBridge.m; sourceTree = "<group>"; };
 		6420BF122C889E3B00580717 /* Videoplayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Videoplayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Videoplayer/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Videoplayer-VideoplayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoplayer-VideoplayerTests.release.xcconfig"; path = "Target Support Files/Pods-Videoplayer-VideoplayerTests/Pods-Videoplayer-VideoplayerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				6413D1B12C897A6300137147 /* VideoPlayer.m */,
 				6413D1AD2C8977FD00137147 /* VideoPlayerView.swift */,
 				6420BF122C889E3B00580717 /* Videoplayer-Bridging-Header.h */,
+				6413D1B32C89B92400137147 /* BackgroundLocation.swift */,
+				6413D1B52C89B95E00137147 /* BackgroundLocationManagerBridge.m */,
 			);
 			name = Videoplayer;
 			sourceTree = "<group>";
@@ -407,7 +413,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6413D1B22C897A6300137147 /* VideoPlayer.m in Sources */,
+				6413D1B62C89B95E00137147 /* BackgroundLocationManagerBridge.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				6413D1B42C89B92400137147 /* BackgroundLocation.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				6413D1AE2C8977FD00137147 /* VideoPlayerView.swift in Sources */,
 			);
